@@ -41,17 +41,32 @@ The dataset is not included in this repository.
 
 ## Results
 
+## Model Comparison
+
+![Model Comparison](model_comparison.png)
+
 | Model | Validation Accuracy |
 |------|---------------------|
-| Custom CNN | ~90–93% |
-| MobileNetV2 | ~98–99% |
+| Custom CNN | 94.49%   |
+| MobileNetV2 | 99.64% |
+
+- MobileNetV2 achieved **99.64% validation accuracy**
+- Custom CNN achieved **94.49% validation accuracy**
+- Transfer learning improved performance by approximately **5%**
 
 ---
 
 ## Comparison
 
-The custom CNN learns features from scratch and achieves good performance.  
-MobileNetV2 leverages pretrained features, resulting in higher accuracy, faster convergence, and more stable performance.
+The custom CNN model was able to learn meaningful features from scratch and achieved strong performance.
+
+However, MobileNetV2 significantly outperformed the CNN due to:
+
+- Pretrained weights from ImageNet
+- Better feature extraction capability
+- Faster convergence during training
+- More stable validation accuracy across epochs
+
 
 ---
 
