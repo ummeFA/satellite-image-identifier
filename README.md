@@ -43,7 +43,7 @@ The dataset is not included in this repository.
 
 ## Model Comparison
 
-![Model Comparison](model_comparison.png)
+![Model Comparison](images/model_comparison.png)
 
 | Model | Validation Accuracy |
 |------|---------------------|
