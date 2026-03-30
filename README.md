@@ -16,7 +16,7 @@ Two models are implemented and compared:
 
 The dataset used in this project is from Kaggle:
 
-https://www.kaggle.com/datasets/xxxxx/satellite-image-classification
+https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
 
 - Total images: 5631
 - Classes: 4
